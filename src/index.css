@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+  
+}
+.wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.javaq {
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 700px;
+  padding: 2rem;
+  background-color: #f0e6e6;
+  box-shadow: 1px 1px 9px #2c252598;
+}
+.result {
+  margin-top: 1rem;
+  width: 700px;
+  padding-left: 2rem;
+ 
+ 
+}
+.result li{
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.result span {
+  font-weight: 900;
+  font-size: x-large;
+  margin-top: 1rem;
+}
+
+
+.javaq button {
+  padding: 10px 30px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(96, 108, 96);
+  border: none;
+  border-radius: 5px;
+  
+
+}
+button:active{
+    background-color: green;
+}
